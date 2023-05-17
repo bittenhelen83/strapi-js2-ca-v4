@@ -19,7 +19,3 @@ Password: Pass1234
 ```
 
 There is one content type in the project, accessible at `http://localhost:1337/api/articles`.
-
-## Important
-
-Change the keys
