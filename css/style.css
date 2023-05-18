@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .article-container {
@@ -10,7 +11,7 @@
 .article {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid pink;
+  border: 1px solid paleturquoise;
   border-radius: 1rem;
   min-width: 200px;
   max-width: 400px;
@@ -22,5 +23,36 @@
   right: 10px;
   top: 10px;
   font-size: 25px;
-  color: pink;
+  color: red;
+}
+
+a {
+  color: #1e81b0;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+h3 {
+  color: #1e81b0;
+}
+
+.author {
+  color: #1e81b0;
+  font-style: italic;
+}
+
+input {
+  margin: 20px;
+}
+
+nav {
+  margin-left: -20px;
+}
+
+.message {
+  margin: 20px;
+  color: grey;
 }
